@@ -1,5 +1,5 @@
 // هنا سوف تنشئ دالة calculate 
-function calculate () {
+function calculate() {
 let weight = document.getElementById("weight").value;
 let hight = document.getElementById("hight").value;
 
@@ -12,7 +12,7 @@ if (hight== "" || weight== "") {
     alert ("you forgot to enter your info");
     return;
 }
-s
+
 if (BMI <18.5){
     status= "تعاني من نقص في الوزن";
 } else if (BMI <25) {
